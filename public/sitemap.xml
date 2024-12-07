@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1316/makonitis/categories/</loc>
+    <loc>http://localhost:63182/makonitis/categories/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/tags/digit%C4%81l%C4%81-transform%C4%81cija/</loc>
+    <loc>http://localhost:63182/makonitis/tags/digit%C4%81l%C4%81-transform%C4%81cija/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/tags/iaas/</loc>
+    <loc>http://localhost:63182/makonitis/tags/iaas/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/infrastructure/</loc>
+    <loc>http://localhost:63182/makonitis/infrastructure/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/tags/it-infrastrukt%C5%ABra/</loc>
+    <loc>http://localhost:63182/makonitis/tags/it-infrastrukt%C5%ABra/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/</loc>
+    <loc>http://localhost:63182/makonitis/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/tags/m%C4%81ko%C5%86dato%C5%A1ana/</loc>
+    <loc>http://localhost:63182/makonitis/tags/m%C4%81ko%C5%86dato%C5%A1ana/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</loc>
+    <loc>http://localhost:63182/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/about/team/</loc>
+    <loc>http://localhost:63182/makonitis/about/team/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/services/</loc>
+    <loc>http://localhost:63182/makonitis/services/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/about/</loc>
+    <loc>http://localhost:63182/makonitis/about/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/tags/</loc>
+    <loc>http://localhost:63182/makonitis/tags/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1316/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</loc>
+    <loc>http://localhost:63182/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url>
 </urlset>

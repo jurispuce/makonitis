@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mākonītis - Mākonis ES</title>
-    <link>http://localhost:1317/makonitis/categories/</link>
+    <link>http://localhost:63182/makonitis/categories/</link>
     <description>Recent content in Categories on Mākonītis - Mākonis ES</description>
     <generator>Hugo</generator>
     <language>lv-LV</language>
     <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1317/makonitis/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63182/makonitis/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mākoņdatošana</title>
-      <link>http://localhost:1317/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</link>
+      <link>http://localhost:63182/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</guid>
+      <guid>http://localhost:63182/makonitis/categories/m%C4%81ko%C5%86dato%C5%A1ana/</guid>
       <description></description>
     </item>
     <item>
       <title>Uzņēmumu Analīze</title>
-      <link>http://localhost:1317/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</link>
+      <link>http://localhost:63182/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1317/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</guid>
+      <guid>http://localhost:63182/makonitis/categories/uz%C5%86%C4%93mumu-anal%C4%ABze/</guid>
       <description></description>
     </item>
   </channel>
