@@ -1,0 +1,14 @@
+{{ $url := .RelPermalink }}
+<div class="breadcrumbs">
+    <a href="/">Sākums</a>
+    {{ $scratch := newScratch }}
+    {{ $scratch.Set "path" "/" }}
+    
+    {{ range $index, $element := split (trim $url "/") "/" }}
+        {{ if ne $element "" }}
+            <span class="breadcrumb-separator">/</span>
+            {{ $scratch.Add "path" (printf "%s/" $element) }}
+            <a href="{{ $scratch.Get "path" }}">{{ humanize . }}</a>
+        {{ end }}
+    {{ end }}
+</div>

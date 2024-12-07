@@ -1,0 +1,52 @@
+baseURL = 'https://jurispuce.github.io/makonitis/'
+languageCode = 'lv-LV'
+defaultContentLanguage = 'lv'
+title = 'Mākonītis - Mākonis ES' 
+theme = 'mainroad'
+
+[menu]
+  [[menu.main]]
+    name = "Sākums"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Par mums"
+    url = "about/"
+    weight = 2
+  [[menu.main]]
+    name = "Pakalpojumi"
+    url = "services/"
+    weight = 3
+  [[menu.main]]
+    name = "Infrastruktūra"
+    url = "infrastructure/"
+    weight = 4
+
+[Params]
+  description = "Mākonītis - Jūsu uzticamais mākoņdatošanas partneris"
+  copyright = "Mākonītis Solutions"
+  opengraph = true
+  twitter_cards = false
+  readmore = true
+  authorbox = false
+  toc = true
+  pager = true
+  post_meta = ["date", "categories"]
+  mainSections = ["post", "blog", "news"]
+  customCSS = ["css/custom.css"]
+  dateformat = "02.01.2006"
+  mathjax = false
+  schema = true
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5
+  tags_counter = true
+
+[Params.widgets.search]
+  cached = false

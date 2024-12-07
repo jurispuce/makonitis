@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.description }}
+    <h2>{{ .Params.description }}</h2>
+    {{ end }}
+    {{ .Content }}
+    
+</div>
+{{ end }}

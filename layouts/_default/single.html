@@ -1,0 +1,129 @@
+{{ define "main" }}
+<div class="container">
+    {{ partial "breadcrumbs.html" . }}
+    
+    <div class="content-wrapper">
+        {{ if .Parent }}
+        <div class="section-nav">
+            {{ with .Parent }}
+            <h4>{{ .Title }}</h4>
+            <ul>
+                {{ range .Pages }}
+                <li class="{{ if eq . $ }}active{{ end }}">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+        {{ end }}
+        
+        <article class="main-content">
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+            
+            {{ if .Parent }}
+            <div class="section-navigation">
+                {{ with .PrevInSection }}
+                <div class="prev-page">
+                    <span>← Iepriekšējā nodaļa</span>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+                
+                {{ with .NextInSection }}
+                <div class="next-page">
+                    <span>Nākamā nodaļa →</span>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </article>
+    </div>
+</div>
+
+<style>
+.content-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.section-nav {
+    flex: 0 0 250px;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+}
+
+.section-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-nav li {
+    margin: 0.5rem 0;
+}
+
+.section-nav li.active a {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.main-content {
+    flex: 1;
+    max-width: 800px;
+}
+
+.section-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.prev-page, .next-page {
+    max-width: 45%;
+}
+
+.prev-page span, .next-page span {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.breadcrumbs {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.breadcrumbs a {
+    color: #666;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    color: #0056b3;
+}
+
+.breadcrumb-separator {
+    margin: 0 0.5rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .section-nav {
+        position: static;
+        width: 100%;
+    }
+}
+</style>
+{{ end }}

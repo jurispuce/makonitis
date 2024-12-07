@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Par Mums on Mākonītis - Mākonis ES</title>
+    <link>http://localhost:1317/makonitis/about/</link>
+    <description>Recent content in Par Mums on Mākonītis - Mākonis ES</description>
+    <generator>Hugo</generator>
+    <language>lv-LV</language>
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1317/makonitis/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mūsu Komanda</title>
+      <link>http://localhost:1317/makonitis/about/team/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1317/makonitis/about/team/</guid>
+      <description>&lt;h1 id=&#34;mūsu-komanda&#34;&gt;Mūsu Komanda&lt;/h1&gt;&#xA;&lt;p&gt;Mākonītis Solutions komanda sastāv no pieredzējušiem IT profesionāļiem ar plašu pieredzi mākoņdatošanas nozarē.&lt;/p&gt;&#xA;&lt;h2 id=&#34;vadības-komanda&#34;&gt;Vadības Komanda&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Jānis Bērziņš&lt;/strong&gt; - Izpilddirektors (CEO)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Anna Kļaviņa&lt;/strong&gt; - Tehnoloģiju direktore (CTO)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pēteris Ozols&lt;/strong&gt; - Operāciju direktors (COO)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tehniskie-eksperti&#34;&gt;Tehniskie Eksperti&lt;/h2&gt;&#xA;&lt;p&gt;Mūsu tehniskā komanda sastāv no:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;15 mākoņdatošanas arhitektiem&lt;/li&gt;&#xA;&lt;li&gt;20 DevOps inženieriem&lt;/li&gt;&#xA;&lt;li&gt;12 sistēmu administratoriem&lt;/li&gt;&#xA;&lt;li&gt;7 kiberdrošības speciālistiem&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1317/makonitis/about/&#34;&gt;Atpakaļ uz Par Mums&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

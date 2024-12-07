@@ -1,0 +1,17 @@
+{{ if hugo.IsMultilingual }}
+<div class="widget-languages widget">
+	<h4 class="widget-languages__title widget__title">{{ T "languages_title" }}</h4>
+	<div class="widget-languages__content widget__content">
+		<ul class="widget-languages__list">
+			{{ range .Site.Languages }}
+			<li class="widget-languages__item">
+				<a class="widget-languages__link" href="{{ . | absURL }}">
+					{{ if eq . $.Site.Language }}★{{ end }}
+					{{ .LanguageName }}
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</div>
+{{ end }}
